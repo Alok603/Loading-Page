@@ -1,0 +1,47 @@
+#main {
+    
+    border: 2px solid black;
+    height: 700px;
+    width: 1500px;
+    background-color:#dadada;
+}
+#center{
+    
+    position:absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    width: 60%;
+    height: 70%;
+    /* background-color: red; */
+}
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+}
+img{
+    
+    height: 100%;
+    /* object-fit: cover; */
+}
+#one{
+    width: 0%;
+}
+.text{
+    position: absolute;
+    overflow: hidden;
+    top: 70%;
+    left: -18%;
+    z-index: 999;
+    width:250px ;
+    height:80px ;
+    
+}
+.text h1{
+    color: black;
+    font-size: 45px;
+    position: absolute;
+    top:80px;
+}
